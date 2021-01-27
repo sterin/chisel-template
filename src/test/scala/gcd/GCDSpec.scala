@@ -11,11 +11,11 @@ import chisel3.experimental.BundleLiterals._
   * This is a trivial example of how to run this Specification
   * From within sbt use:
   * {{{
-  * testOnly gcd.GcdDecoupledTester
+  * testOnly gcd.GCDSpec
   * }}}
   * From a terminal shell use:
   * {{{
-  * sbt 'testOnly gcd.GcdDecoupledTester'
+  * sbt 'testOnly gcd.GCDSpec '
   * }}}
   */
 class GCDSpec extends FreeSpec with ChiselScalatestTester {
